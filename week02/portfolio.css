@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+* {
+    box-sizing : border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background: #FFFFC0;
+}
+.padding{
+	padding: 16px;
+}
+.inline-block{
+	display: inline-block;
+	vertical-align: top;
+}
+.left{
+	text-align: right;
+}
+
+/* header */
+.header{
+	width: 100%;
+   	height: 80px;
+   	box-shadow: 0 5px 5px rgba(0,0,0,.26);
+}
+.grad {
+  background: linear-gradient(to bottom right, #e3c0c0, #817091);
+}
+
+.nav-bar{
+	top: 30%; 
+	right: 15%;
+	position: fixed;
+}
+.nav-bar>.nav_elem{
+	height: 45px;
+}
+
+.nav-bar>.nav_elem i{
+	font-size: 15px;
+	color: #817091;
+}
+.nav-bar>.nav_elem i:hover{
+	color: #ef8e73;
+}
+
+.header > .header_text {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	line-height: 80px;
+}
+
+/* about-me */
+
+.about-me-container{
+	width: 100%;
+	height: 750px;
+	background: #EEEEEE;
+}
+
+.about-me {
+	color: #817091;
+	max-width: 720px;
+	height: 100%;
+	margin:auto;
+}
+.about-me > .about-me_title{
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+}
+.about-me > .about-me-row{
+	margin:auto;
+}
+.about-me-row > .about-me_img{
+	background: url("./kakao.jpg") no-repeat;
+	background-size: contain;
+	width: 230px;
+	height: 230px;
+	border-style: solid;
+	border-radius: 100%;
+}
+.about-me-row > .about-me-info{
+	width: 60%;
+	height: 230px;
+	padding-left: 10%; 
+}
+
+.about-me-row > .about-me-info > .about-me-info_text_wrap{
+	width: 100%;
+	height: 25%;
+}
+
+.about-me-row > .about-me-info > .about-me-info_text_wrap > .about-me-info_text_title{
+	width: 100%;
+	height: 50%;
+	color: #ef8e73;
+	font-size: 25px;
+}
+
+.about-me-row > .about-me-info > .about-me-info_text_wrap > .about-me-info_text{
+	width: 100%;
+	height: 50%;
+	color: #817091;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.about-me > .about-me_text{
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.about-me > .about-me-interest > .about-me-interest-title{
+	width: 100%;
+	color: #ef8e73;
+	font-size: 25px;
+}
+
+.about-me > .about-me-interest > .about-me-interest-icon{
+	text-align: center;
+	width: 100%;
+	color: #817091;
+	font-size: 65px;
+}
+.about-me > .about-me-interest > .about-me-interest-icon > i{
+	padding: 10px;
+}
+
+/* education , experience */
+
+.education-container{
+	width: 100%;
+	height: 850px;
+	background: #446594;
+}
+.education {
+	color: white;
+	max-width: 720px;
+	height: 100%;
+	margin:auto;
+}
+.education > .education_title{
+	font-size: 45px;
+	text-align: center;
+	line-height: 100px;
+}
+.education > .education_row{
+	width: 100%;
+	height: 15%;
+}
+.education > .education_row > .education-career{
+	width: 44%;
+	height: 100%;
+}
+.education > .education_row > .education-career > .education-career_title{
+	width: 100%;
+	height: 50%;
+	font-size: 20px;
+	line-height: 63px;
+	color: white;
+}
+.education > .education_row > .education-career > .education-career_text{
+	width: 100%;
+	height: 25%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #e3c0c0;
+}
+.education > .education_row > .education_icon{
+	width: 10%;
+	height: 100%;
+}
+.education > .education_row > .education_icon > .central-line{
+	margin: auto; 
+	width: 1px;
+	height: 100%;
+	border-style: solid;
+	/*border-radius: 10px;*/
+}
+
+.education > .education_row > .education-date{
+	width: 44%;
+	height: 100%;
+}
+.education > .education_row > .education-date > i{
+	color: #ef8e73;
+	line-height: 130px;
+}
+.education > .education_row > .education-date > .education-date-box{
+	width: 85%;
+	height: 70%;
+	border-radius: 25px;
+	background: #ef8e73;
+	margin: 20px 0px 0px 16px;
+	color: #446594;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 90px;
+}
+/* skill */
+.skill-container{
+	width: 100%;
+	height: 850px;
+	background: #EEEEEE;
+}
+.skill {
+	color: #817091;
+	max-width: 720px;
+	height: 100%;
+	margin:auto;
+}
+.skill > .skill_title{
+	font-size: 45px;
+	text-align: center;
+	line-height: 100px;
+}
+.skill > .skill-content{
+	width: 100%;
+	height: 700px;
+}
+.skill > .skill-content > .skill-row{
+	width: 100%;
+	height: 50%;
+}
+.skill > .skill-content > .skill-row > .skill-box{
+	width: 32%;
+	height: 67%;
+}
+.skill > .skill-content > .skill-row > .skill-box > .skill-diagram{
+	width: 100%;
+	height: 100%;
+	background: #ef8e73;
+	border-radius: 100%;
+}
+.skill > .skill-content > .skill-row > .skill-box > .skill-diagram >.skill-diagram-back{
+	background: #EEEEEE;
+	border-radius: 100%;
+	margin:auto;
+	text-align: center;
+	line-height: 234px;
+	font-size: 25px;
+}
+.skill > .skill-content > .skill-row > .skill-box > .skill-title{
+	width: 100%;
+	height: 25%;
+	font-size: 25px;
+	color :#ef8e73;
+	text-align: center;
+	line-height: 52px;
+}
+.skill > .skill-content > .skill-row > .skill-box > .skill-content{
+	width: 100%;
+	height: 25%;
+	font-size: 15px;
+	color :#817091;
+	line-height: 26px;
+}
+.percentage30{
+	width: 50%;
+	height: 50%;
+}
+.percentage50{
+	width: 70%;
+	height: 70%;
+}
+.percentage60{
+	width: 75%;
+	height: 75%;
+}
+.percentage75{
+	width: 85%;
+	height: 85%;
+}
+
+
+
